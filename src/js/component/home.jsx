@@ -1,7 +1,7 @@
 import React from "react";
 
-//include images into your bundle
 import Navbar from "./navbar.js";
+import Jumbotron from "./jumbotron.js";
 
 //create your first component
 const Home = () => {
@@ -9,6 +9,7 @@ const Home = () => {
 		
 		<div className="text-center">
 			<Navbar/>
+			<Jumbotron/>
 		</div>
 	
 	);
